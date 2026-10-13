@@ -1,0 +1,1 @@
+wireFrames  are created based on the applications defined Architecture . For each intended User interface  there needs to be a wire frame .wireframe names  names follow anvil application form names . wireframe  folder names follow Canonical  application client package names  

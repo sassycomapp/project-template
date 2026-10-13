@@ -1,0 +1,3 @@
+Standard operating procedures documents have the prefix "SOP-".
+A standard operating procedure is the specific method that has been determined to execute a specific task. The reason that it would be recorded in standard operating procedures is because it is unique and will not be found anywhere else , the procedure was likely purposely designed and Developed 
+Standard-operating-procedures-local Is reserved for such standard operating procedures which canonical to this specific project .

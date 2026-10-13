@@ -1,0 +1,2 @@
+This folder is reserved for standardized documentation canonical to this particular project. 
+The files in this folder may be modeled after similar documents in the folder : "C:\dev\project-library-global\docs-standard-global"
