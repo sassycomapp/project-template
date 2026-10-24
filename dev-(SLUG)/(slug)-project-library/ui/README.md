@@ -13,7 +13,7 @@ Every form folder holds the same six files, modelled on `(PACKAGE-NAME)\(FORM-NA
 | `{FormName}-screen.png` | The screen image, Step 28 |
 | `{FormName}-screen-chklist.md` | The screen checklist, from `templates-global\tmp-chklist-screen.md` |
 
-A package is kept only when the application uses it. Step 11 removes the package folders the application does not use, and the model folder `(PACKAGE-NAME)\` once the first form folder exists.
+Every package folder is kept. An empty package folder is a package the application does not use. The model folder `(PACKAGE-NAME)\` stays as the pattern for every form folder.
 
 | Package | What it holds | Used by |
 |---|---|---|
