@@ -4,7 +4,7 @@ This file adds the rules for this business's project library. It sits under the 
 
 ## What this library is
 
-The project library of {project-name} (`{slug}`). It holds every document, decision and PDLF record for the business's apps. It holds no application code.
+The project library of {project-name} (`{slug}`). It holds every document, decision and PDLF record for the business's apps. It holds no application code. It is a public repository.
 
 The business has five apps (`spec-five-app-architecture-model.md` in `project-library-global`):
 
@@ -23,27 +23,37 @@ The business has five apps (`spec-five-app-architecture-model.md` in `project-li
 5. **The agent never commits or pushes.** Only David commits, with `commit-all`. Every PDLF step ends by asking David to run `/mb-close-out`.
 6. **Search, read, apply.** Search GBrain first, then read the actual file each result points to before applying it.
 7. **Plan reads, Build writes.** Plan mode never writes. Build mode writes only with David's approval.
+8. **Nothing secret is committed.** This repository is public. No key, password, token or client data is ever written here.
+9. **Every document goes in its folder.** Each folder's `README.md` says what belongs in it. A document with no folder goes in `wip\` until it has one.
+10. **A skill's output goes to the skill's own place.** Inside a PDLF step, a copy also goes to `pdlf-outputs\{step}\`. Outside a PDLF step, a skill's report goes to `reports-local\{family}\`.
+11. **Reference material is never committed.** A reference platform's source and reference material stay in `reference-platform-local\`, which git and GBrain ignore.
 
 ## Where things go
 
 | What | Where |
 |---|---|
-| The domain glossary | `docs-local/GLOSSARY.md` |
-| This application's decisions | `adr-local/` |
-| Feature tickets | `pdlf-tickets/` |
-| Everything a PDLF step produces | `pdlf-outputs/{step}/`, named `{slug}-{step}-{run}-{name}.md`, where `{run}` is `app` or the feature's short name |
-| This application's own documents | `docs-local/` |
+| The domain glossary | `docs-local\GLOSSARY.md` |
+| A run's design doc, test plan, access matrix and threat model | `docs-local\design\{run}\`, where `{run}` is `app{n}` or the feature's short name |
+| Research on a reference platform | `docs-local\reference-platform-research.md` |
+| Standard documents | `docs-standard-local\` |
+| This business's decisions | `adr-local\adr-{kebab-case-name}.md` |
+| Feature tickets | `pdlf-tickets\{run}\{ticket-slug}.md` |
+| Everything a PDLF step produces | `pdlf-outputs\{step}\`, named `{slug}-{step}-{run}-{name}` |
+| Reports from skills outside PDLF | `reports-local\{family}\{skill}-{topic}-{yyyy-mm-dd}.md` |
+| The design system | `DESIGN.md` |
+| Wireframes | `wireframe\` |
+| Screens | `ui\{package}\{FormName}\` |
 
 ## Agent skills
 
 ### Issue tracker
 
-Tickets are local markdown files in `pdlf-tickets/`. See `docs/agents/issue-tracker.md`.
+Tickets are local markdown files in `pdlf-tickets\`. See `docs\agents\issue-tracker.md`.
 
 ### Triage labels
 
-The five standard labels: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`. See `docs/agents/triage-labels.md`.
+The five standard labels: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`. See `docs\agents\triage-labels.md`.
 
 ### Domain docs
 
-Single context: the glossary is `docs-local/GLOSSARY.md` and the decisions are in `adr-local/`. See `docs/agents/domain.md`.
+Single context: the glossary is `docs-local\GLOSSARY.md` and the decisions are in `adr-local\`. See `docs\agents\domain.md`.

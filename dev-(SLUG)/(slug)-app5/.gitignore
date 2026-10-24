@@ -1,0 +1,33 @@
+# Everything committed here is pushed to Anvil. Anvil uses only anvil.yaml,
+# client_code, server_code and theme. Keep everything local-only out.
+
+# Secrets: never committed
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Test output: evidence goes to the project library's pdlf-outputs
+test-results/
+*.junit.xml
+.coverage
+htmlcov/
+
+# Code graph and local tool state
+graphify-out/
+.gbrain/
+.opencode/
+.gstack/
+
+# OS and editor
+Thumbs.db
+.DS_Store
+*.log

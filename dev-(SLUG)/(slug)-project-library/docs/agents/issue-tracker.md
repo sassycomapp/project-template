@@ -1,10 +1,10 @@
 # Issue tracker: local markdown
 
-Tickets for this business live as markdown files in `pdlf-tickets/`, in this project library. The library is private; the app repositories are public, so tickets, which describe internal plans, never go there.
+Tickets for this business live as markdown files in `pdlf-tickets/`, in this project library. They are never placed in an app repository: tickets are documentation, and code and documentation are never mixed. Every repository is public, so a ticket never holds a secret, a key or client data.
 
 ## Conventions
 
-- **Create a ticket:** create `pdlf-tickets/<feature>/<ticket-slug>.md`, where `<feature>` is `app` for the whole application or the feature's short name. Use the frontmatter below.
+- **Create a ticket:** create `pdlf-tickets/<run>/<ticket-slug>.md`, where `<run>` is `app{n}` for the whole application or the feature's short name. Use the frontmatter below.
 - **Read a ticket:** read the file.
 - **List tickets:** list the markdown files in `pdlf-tickets/` and filter by their frontmatter.
 - **Comment:** append to the file under `## Comments`, with the date.

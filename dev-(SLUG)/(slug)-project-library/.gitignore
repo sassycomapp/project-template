@@ -27,5 +27,11 @@ build/
 .env
 .env.*
 
+# Local tool state
 .opencode/
 .gstack/
+graphify-out/
+
+# Reference platform material: research only, never committed
+reference-platform-local/*
+!reference-platform-local/README.md

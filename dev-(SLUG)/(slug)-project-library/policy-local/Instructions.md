@@ -1,1 +1,0 @@
-Local folder is reserved for policies which are canonical to this application and do not belong in the policies global folder 

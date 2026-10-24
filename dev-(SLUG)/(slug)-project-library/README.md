@@ -2,24 +2,42 @@
 
 The project library of {project-name} (`{slug}`): every document, decision and PDLF record for all of the business's apps. It is the business's GBrain source `{slug}-project-library`. It holds no application code; the code is in the app folders beside it.
 
+The repository is public. No secret, key or client data is ever committed to it.
+
 ## Folders
 
 | Folder | What it holds |
 |---|---|
-| `pre-project/` | The three pre-project files David fills in for a new application: the brief, the scoping ideas, and the constraints and notes. |
-| `docs-local/` | This application's own documents, including `GLOSSARY.md`, the domain glossary. |
-| `docs-standard-local/` | Standard documents for this application, modelled on those in `project-library-global`. |
-| `adr-local/` | Decisions that belong to this application only. Global decisions are referenced where they live. |
-| `policy-local/` | Policies that belong to this application only. |
-| `standard-operating-procedures-local/` | Procedures (`sop-` prefix) that belong to this application only. |
-| `prompts-local/` | Prompts that belong to this application only. |
-| `ui/` | Wireframes and screens, one folder per form, named after the Anvil forms. |
-| `docs/agents/` | How the Matt Pocock skills work in this library: where tickets live, the triage labels, and where the glossary and decisions are. |
-| `pdlf-tickets/` | The feature tickets, one markdown file each. |
-| `pdlf-outputs/` | One folder per PDLF step (`a01` to `f46`). Everything a step produces for this business is kept in its folder: the Step Receipt and a copy of every output. |
-| `.out-of-scope/` | Ideas the triage skill set aside as out of scope, kept so they are not raised again. |
-| `V2/` | What has been deferred to version 2. |
-| `wip/` | The project's working to-do list. |
+| `pre-project\` | The three pre-project files David fills in for a new application with no context. |
+| `docs-local\` | The business's own working documents: the glossary, the design folder of every run, strategy, releases and the schema migration log. |
+| `docs-standard-local\` | The standard documents every Mybizz project keeps, modelled on `project-library-global\docs-standard-global\`. |
+| `adr-local\` | Decisions that belong to this business only. |
+| `policy-local\` | Policies that belong to this business only. |
+| `specifications-local\` | Specifications that belong to this business only, such as a feature's specification. |
+| `standard-operating-procedures-local\` | Procedures that belong to this business only. |
+| `guides-local\` | The client-facing guides and the video scripts. |
+| `legal-local\` | The default clauses the clause builder offers the client, and Mybizz's agreements with the client. |
+| `assets-local\` | The source files of the brand: logos, images and fonts. |
+| `prompts-local\` | Prompts that belong to this business only. |
+| `templates-local\` | Templates that belong to this business only. |
+| `ui\` | The screens, one folder per Anvil package and one per form. |
+| `wireframe\` | The wireframes, in the wireframe skill's own place. |
+| `docs\` | Folders owned by skills: `docs\agents\` for the Matt Pocock skills. |
+| `pdlf-tickets\` | The feature tickets, one markdown file each. |
+| `pdlf-outputs\` | One folder per PDLF step (`a01` to `f46`): the Step Receipt, the test evidence and a copy of every output. |
+| `reports-local\` | Reports from skills run outside a PDLF step. |
+| `reference-platform-local\` | A reference platform's source and research material. Never committed and never indexed by GBrain. |
+| `.out-of-scope\` | Ideas the triage skill set aside as out of scope. |
+| `V2\` | What has been deferred to version 2. |
+| `wip\` | The project's to-do list and work not yet in its permanent place. |
+
+## Files at the root
+
+| File | What it is |
+|---|---|
+| `AGENTS.md` | The rules every agent follows in this library. |
+| `opencode.json` | OpenCode's permissions for this library. |
+| `DESIGN.md` | The application's design system, written at Step 20 by GStack `/design-consultation`, in its own place. Not present until then. |
 
 ## How this library is worked on
 
