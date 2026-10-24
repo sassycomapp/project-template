@@ -7,7 +7,7 @@ The project library of {project-name} (`{slug}`): every document, decision and P
 | Folder | What it holds |
 |---|---|
 | `pre-project/` | The three pre-project files David fills in for a new application: the brief, the scoping ideas, and the constraints and notes. |
-| `docs-local/` | This application's own documents, including `CONTEXT.md`, the domain glossary. |
+| `docs-local/` | This application's own documents, including `GLOSSARY.md`, the domain glossary. |
 | `docs-standard-local/` | Standard documents for this application, modelled on those in `project-library-global`. |
 | `adr-local/` | Decisions that belong to this application only. Global decisions are referenced where they live. |
 | `policy-local/` | Policies that belong to this application only. |

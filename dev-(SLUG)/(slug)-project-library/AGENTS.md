@@ -28,7 +28,7 @@ The business has five apps (`spec-five-app-architecture-model.md` in `project-li
 
 | What | Where |
 |---|---|
-| The domain glossary | `docs-local/CONTEXT.md` |
+| The domain glossary | `docs-local/GLOSSARY.md` |
 | This application's decisions | `adr-local/` |
 | Feature tickets | `pdlf-tickets/` |
 | Everything a PDLF step produces | `pdlf-outputs/{step}/`, named `{slug}-{step}-{run}-{name}.md`, where `{run}` is `app` or the feature's short name |
@@ -46,4 +46,4 @@ The five standard labels: `needs-triage`, `needs-info`, `ready-for-agent`, `read
 
 ### Domain docs
 
-Single context: the glossary is `docs-local/CONTEXT.md` and the decisions are in `adr-local/`. See `docs/agents/domain.md`.
+Single context: the glossary is `docs-local/GLOSSARY.md` and the decisions are in `adr-local/`. See `docs/agents/domain.md`.
