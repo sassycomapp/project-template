@@ -10,6 +10,7 @@ The folder of one Mybizz business. It holds the business's apps and its one proj
 | `{slug}-app5` | App 5, the management app. Public repository. |
 | `{slug}-project-library` | The project library: every document, decision and PDLF record for the whole business. Public repository. |
 | `wip` | David's personal working folder. Not part of the project and not a repository. |
+| `{slug}-project-context` | Present only for a business that brought its own material into PDLF: its existing project library, moved here whole by Step 11, read-only. Public repository. Never opened in OpenCode. |
 
 App 4, each client's own instance, lives on the client's own Anvil account and has no folder here. Code and documentation are never mixed. No application is ever multi-tenant.
 
