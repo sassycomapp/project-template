@@ -5,7 +5,7 @@ title: "custom-component-requirements-matrix"
 
 Every custom component the application needs, where it is used and why no standard component serves.
 
-**Standard:** [[[default:templates-global/tmp-custom-component-requirements-matrix]]](C:/dev/project-library-global/templates-global/tmp-custom-component-requirements-matrix.md)
+**Standard:** `C:\dev\project-library-global\templates-global\tmp-custom-component-requirements-matrix.md`
 
 ## Definition
 
