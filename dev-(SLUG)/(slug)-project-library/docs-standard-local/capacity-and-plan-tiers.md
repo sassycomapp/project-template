@@ -7,7 +7,7 @@ A typical client's use against the limits of the Anvil plan tier it is on, what 
 
 **Standard:** [[[default:specifications-global/spec-anvil-platform-standards]]](C:/dev/project-library-global/specifications-global/spec-anvil-platform-standards.md)
 
-## Hobby Limits
+## Business Plan Limits
 
 ## Typical Client
 
