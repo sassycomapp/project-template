@@ -25,4 +25,3 @@ The standard documents every Mybizz project keeps, canonical to this project. Ea
 | `onboarding-implementation-plan.md` | Setting up a new client |
 | `client-exit-handover.md` | What a leaving client receives |
 | `deployment-procedures.md` | Releasing from App 1 through App 2, and rolling back |
-| `anvil-ui-build-standard.md` | How the screens are built in Anvil |
