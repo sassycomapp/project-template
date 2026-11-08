@@ -1,0 +1,20 @@
+# This repository defines the release image. Nothing secret is ever committed:
+# every key reaches a container as an encrypted App Platform environment value.
+
+# Secrets: never committed
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+
+# Build output and local tool state
+build/
+dist/
+.opencode/
+.gstack/
+
+# OS and editor
+Thumbs.db
+.DS_Store
+*.log

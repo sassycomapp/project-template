@@ -8,7 +8,7 @@ Single context. The business has one vocabulary and one set of decisions, shared
 
 - **The glossary:** `docs-local/GLOSSARY.md`.
 - **The decisions:** `adr-local/`. Global decisions are in `project-library-global` and are referenced, never copied. Each decision is one file, `adr-{kebab-case-name}.md`, as `spec-nomenclature` names it, written in the format of the `domain-modeling` skill's `ADR-FORMAT.md`.
-- **The code:** in the app folders beside this library, `{slug}-app1`, `{slug}-app2`, `{slug}-app3` and `{slug}-app5`. Read code there directly.
+- **The code:** in the app folders beside this library, `{slug}-app1`, `{slug}-app2`, `{slug}-app3`, `{slug}-app4` and `{slug}-app5`. Read code there directly.
 
 ## Before exploring, read these
 
