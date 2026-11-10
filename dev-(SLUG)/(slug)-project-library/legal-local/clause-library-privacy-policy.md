@@ -3,7 +3,7 @@ title: "clause-library-privacy-policy"
 ---
 # {project-name} — Clause Library: Privacy Policy
 
-The default clauses the clause builder offers the Owner for the Privacy Policy, one per heading, each meeting POPIA and, where it applies, GDPR.
+The default clauses the clause builder offers the Owner for the Privacy Policy, one per heading, each meeting the UK GDPR and the client's own privacy law.
 
 **Standard:** [[[default:specifications-global/spec-regulatory-compliance-baseline]]](C:/dev/project-library-global/specifications-global/spec-regulatory-compliance-baseline.md)
 
