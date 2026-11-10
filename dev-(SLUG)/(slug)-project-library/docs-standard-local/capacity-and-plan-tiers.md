@@ -1,19 +1,19 @@
 ---
 title: "capacity-and-plan-tiers"
 ---
-# {project-name} — Capacity and Plan Tiers
+# {project-name} — Capacity
 
-A typical client's use against the limits of the Anvil plan tier it is on, what shows that a client needs a higher tier, and how App 5 flags it.
+A typical client's use against the limits of its container and its share of the business's database cluster, what shows that a client or the cluster needs more, and how App 5 flags it.
 
-**Standard:** [[[default:specifications-global/spec-anvil-platform-standards]]](C:/dev/project-library-global/specifications-global/spec-anvil-platform-standards.md)
+**Standard:** [[[default:specifications-global/spec-client-instance-hosting]]](C:/dev/project-library-global/specifications-global/spec-client-instance-hosting.md)
 
-## Business Plan Limits
+## Client Instance Limits
 
 ## Typical Client
 
-## Signs a Higher Tier Is Needed
+## Signs More Is Needed
 
-## Raising a Tier
+## Raising a Container or the Cluster
 
 ## Planned High-Traffic Events
 
