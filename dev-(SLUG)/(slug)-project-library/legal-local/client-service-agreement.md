@@ -11,9 +11,13 @@ The agreement between Mybizz and the client: the service, the fee, the client's 
 
 ## Fees
 
-- The subscription is £79 a month, before tax, for each client instance, charged at the fixed price for the client's currency: £79, $99, C$135, €89 or CHF 89. The client pays monthly, in advance.
+- The subscription is £119 a month, before tax, for each client instance, charged at the fixed price for the client's currency: £119, $149, C$199, €139 or CHF 139. The client pays monthly, in advance.
+- On the annual plan, the client pays 10 times the monthly price for 12 months, in advance: £1,190, $1,490, C$1,990, €1,390 or CHF 1,390.
+- Assisted setup, if the client buys it, is one month's price, paid once.
+- A client on the annual plan earns one month's price off its next annual renewal for each new client that joins on the annual plan through its referral, up to 5 months per renewal. Further confirmed referrals are kept in reserve and carried to the next renewal. A refund of a referred client's first annual payment cancels the month it earned. A client that leaves, or moves to the monthly plan, loses its credits, and a credit is never paid in cash.
+- The referral kit that Mybizz supplies must be used as supplied, with its statement that the client gains a discount when someone joins.
 - Mybizz's order process is conducted by its online reseller, Paddle.com Market Ltd ("Paddle"), which is the Merchant of Record for every order. The Paddle terms (`saas-tos-iro-paddle.md`, in this folder) form part of this agreement: Paddle's role, invoices and receipts, refunds, price changes and Paddle's buyer terms.
-- The monthly price includes every feature and unlimited staff. It includes the client's use of email, AI and voice within the fair-use limits below.
+- The price includes every feature and unlimited staff. It includes the client's use of email, AI and voice within the fair-use limits below.
 
 ## Fair Use
 
@@ -62,8 +66,8 @@ If Mybizz becomes aware of a breach of security affecting the personal data held
 
 ## Term and Termination
 
-- The subscription runs month to month, with no contract and no minimum period.
-- The client may cancel at any time. The cancellation takes effect at the end of the paid month. No refund is given for part of a month.
+- The monthly plan runs month to month, with no contract and no minimum period. The annual plan runs for one year and renews each year.
+- The client may cancel at any time. The cancellation takes effect at the end of the paid month or year. No refund is given for part of a month or a year.
 - If a renewal payment fails, the service continues for 7 days while Paddle retries the payment. If the payment is still not made, the service is suspended until the client pays. If the client has not paid 37 days after the failed payment, the subscription ends and the client exit runs.
 - The client's data is never withheld. Every night, the client's data is copied into the client's own storage, and at exit the client receives all its data there.
 
