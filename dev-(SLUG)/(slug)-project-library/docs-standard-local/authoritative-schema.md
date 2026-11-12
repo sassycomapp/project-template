@@ -3,9 +3,7 @@ title: "authoritative-schema"
 ---
 # {project-name} — Authoritative Database Schema
 
-Every data table and column of App 1, the one source the schema is built from.
-
-**Standard:** `C:\dev\project-library-global\templates-global\tmp-authoritative-schema.md`
+Every data table and column of App 1, the one source the schema is built from. Written at PDLF Step 17 from the data design, in the four sections below.
 
 ## Field Type Conventions
 
