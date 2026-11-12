@@ -42,8 +42,7 @@ The business has five apps (`spec-five-app-architecture-model.md` in `project-li
 | Everything a PDLF step produces | `pdlf-outputs\{step}\`, named `{slug}-{step}-{run}-{name}` |
 | Reports from skills outside PDLF | `reports-local\{family}\{skill}-{topic}-{yyyy-mm-dd}.md` |
 | The design system | `DESIGN.md` |
-| Wireframes | `wireframe\` |
-| Screens | `ui\{package}\{FormName}\` |
+| Screen requirements | `ui\{package}\{FormName}\{FormName}-requirement.md` |
 
 ## Agent skills
 
