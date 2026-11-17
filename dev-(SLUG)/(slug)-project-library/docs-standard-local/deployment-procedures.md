@@ -28,7 +28,8 @@ Every release is staged: App 5's Release action verifies the release image's sig
 
 | Scenario | Recovery | Prevention |
 |---|---|---|
-| DigitalOcean region outage or account suspension | App 5's **Rebuild** action ([[[default:specifications-global/spec-deployment\|Deployment Specification]]](C:/dev/project-library-global/specifications-global/spec-deployment.md) section 10) | Locked R2 backup copies; the rebuild tested before the first paying client; a second payment card and billing alerts on the account |
+| One application server fails | App 5's **Rebuild server** action replaces the server and recreates its clients' containers from the release image | Two free places kept on the servers; Hetzner server backups |
+| Ubicloud service lost or account suspended | App 5's **Rebuild** action ([[[default:specifications-global/spec-deployment\|Deployment Specification]]](C:/dev/project-library-global/specifications-global/spec-deployment.md) section 10) | Locked R2 backup copies; the rebuild tested before the first paying client; a second payment card and billing alerts on the account |
 | Mybizz's SES sending suspended | Outgoing email queued in each instance's retry queue and sent when sending returns | Each client's SES tenant reputation policy; monthly email caps per client; two CloudWatch alarms below Amazon's review levels |
-| Any account compromised | Follow `incident-response-plan.md` | A hardware security key on every supplier account; two scoped DigitalOcean keys; the cluster's trusted sources; locked backup copies |
+| Any account compromised | Follow `incident-response-plan.md` | A hardware security key on every supplier account; scoped Hetzner and Ubicloud keys; the database firewall; locked backup copies |
 

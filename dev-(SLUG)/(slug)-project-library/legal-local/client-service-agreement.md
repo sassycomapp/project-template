@@ -21,7 +21,7 @@ The agreement between Mybizz and the client: the service, the fee, the client's 
 
 ## Fair Use
 
-Every client instance shares its database cluster, its email service and its AI service with other Mybizz clients. Each client's use of those shared resources is limited, so that no client's use can slow, stop or harm another client's service. The limits are far above the heavy use of a team of about six using every feature every working day.
+Every client instance shares its database service, its application server, its email service and its AI service with other Mybizz clients. Each client's use of those shared resources is limited, so that no client's use can slow, stop or harm another client's service. The limits are far above the heavy use of a team of about six using every feature every working day.
 
 | Resource | Notice to the client at | Limit | At the limit |
 |---|---|---|---|
