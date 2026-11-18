@@ -36,7 +36,7 @@ The repository is public. No secret, key or client data is ever committed to it.
 |---|---|
 | `AGENTS.md` | The rules every agent follows in this library. |
 | `opencode.json` | OpenCode's permissions for this library. |
-| `DESIGN.md` | The application's design system, written at Step 20 by GStack `/design-consultation`, in its own place. Not present until then. |
+| `docs-local\DESIGN.md` | The application's design system, written at Step 20 by GStack `/design-consultation`: choices only, every value in `m3-custom-theme`. Not present until then. |
 
 ## How this library is worked on
 
